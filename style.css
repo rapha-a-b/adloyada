@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bona Nova", serif;
+  background-color: #9453a6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bona Nova", serif;
+}
+
+nav {
+  background-color: #8cbf3f;
+}
+
+nav li {
+  width: 100px;
+  text-align: center;
+  background-color: #f2cc0f;
+  margin-left: 3px;
+}
+
+nav ul {
+  padding: 0px !important;
+  flex: 1 1 0 !important;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+nav img {
+  height: 80px;
+  object-fit: contain;
+}
+
+.carousel-wrap img {
+  width: 100%;
+}
+
+#carouselExample {
+  margin-top: 0.3em;
+  height: 45vw;
+  min-height: 200px;
+  max-height: 800px;
+  text-align: center;
+  overflow: hidden;
+  background-color: #8cbf3f;
+  align-items: center;
+}
+.main {
+  padding: 1vw;
+  background-color: #9453a6;
+}
+section {
+  padding: 5vw;
+  margin-top: 10px;
+  background-color: #f2cc0f;
+  width: 50% !important;
+  word-wrap: break-word;
+}
+
+footer {
+  background-color: #8cbf3f;
+}
+
+.card img {
+  height: 10vw;
+}
+
+.media-p {
+  background-color: #f2cc0f;
+}
+.main img {
+  width: 40%;
+  float: right;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    align-items: center;
+  }
+  nav li {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+  }
+  nav li:hover {
+    background-color: blue;
+  }
+  #carousel-wrap p {
+    display: none;
+  }
+  #carouselExample img,
+  .carousel-wrap span {
+    display: none;
+  }
+  #carouselExample {
+    height: 100px;
+    background-image: url(./img/carousel-b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .sponsors {
+    width: 80%;
+    object-position: center;
+  }
+  section {
+    width: 80% !important;
+  }
+}
+
+.fix {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
