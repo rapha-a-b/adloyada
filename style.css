@@ -127,3 +127,9 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+a:hover,
+.card:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
